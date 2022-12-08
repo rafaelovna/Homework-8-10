@@ -15,8 +15,8 @@ public class Main {
     }
         public static void task9() {
             System.out.println("Задача 9");
-            int capital = 29000;
-            int total = 0;
+            double capital = 29000.0;
+            double total = 0;
             for (int i = 1; i <= 12; i++) {
                 total = total + total / 100;
                 total = total + capital;
